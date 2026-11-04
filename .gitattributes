@@ -1,0 +1,13 @@
+# Normalize line endings
+* text=auto eol=lf
+*.png binary
+*.mo binary
+
+# Keep development files out of "git archive" exports
+/.github export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/.distignore export-ignore
+/README.md export-ignore
+/bin export-ignore
+/phpcs.xml.dist export-ignore

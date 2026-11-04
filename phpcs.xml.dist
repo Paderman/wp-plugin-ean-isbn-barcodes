@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ruleset name="EAN &amp; ISBN Barcodes">
+	<description>WordPress Coding Standards for EAN &amp; ISBN Barcodes.</description>
+
+	<file>.</file>
+	<exclude-pattern>/.github/*</exclude-pattern>
+	<exclude-pattern>/bin/*</exclude-pattern>
+	<exclude-pattern>/dist/*</exclude-pattern>
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+	<exclude-pattern>*.js</exclude-pattern>
+	<exclude-pattern>*.css</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+
+	<rule ref="WordPress"/>
+
+	<!-- PHP 7.4+ (plugin header "Requires PHP"). -->
+	<config name="testVersion" value="7.4-"/>
+	<rule ref="PHPCompatibilityWP"/>
+
+	<config name="minimum_wp_version" value="6.0"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="ean-isbn-barcodes"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="eanbc"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

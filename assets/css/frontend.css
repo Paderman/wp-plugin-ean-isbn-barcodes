@@ -1,0 +1,52 @@
+/* EAN & ISBN Barcode – frontend */
+.eanbc { display: table; margin: 1em 0; max-width: 100%; line-height: 1.3; }
+.eanbc--align-left { margin-right: auto; }
+.eanbc--align-center { margin-left: auto; margin-right: auto; text-align: center; }
+.eanbc--align-right { margin-left: auto; }
+.eanbc .eanbc-svg, .eanbc .eanbc-img,
+.eanbc-product .eanbc-svg, .eanbc-product .eanbc-img { display: block; max-width: 100%; height: auto; }
+.eanbc--align-center .eanbc-svg, .eanbc--align-center .eanbc-img { margin: 0 auto; }
+.eanbc-link { display: inline-block; text-decoration: none; border: 0; box-shadow: none; }
+.eanbc-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.eanbc-caption { margin-top: .4em; font-size: .9em; display: grid; gap: .1em; }
+.eanbc-name { font-weight: 600; }
+.eanbc-caption-text { opacity: .75; }
+
+.eanbc--card {
+	padding: 14px 16px; border-radius: 12px; background: #fff; color: #111;
+	border: 1px solid rgba(0, 0, 0, .08); box-shadow: 0 2px 10px rgba(0, 0, 0, .06);
+}
+
+.eanbc-product {
+	display: flex; flex-wrap: wrap; gap: 16px 22px; align-items: center; margin: 1.2em 0; padding: 18px 20px;
+	border-radius: 14px; border: 1px solid rgba(0, 0, 0, .08); background: #fff; color: #111;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, .06); max-width: 640px;
+}
+.eanbc-product.eanbc--align-center { margin-left: auto; margin-right: auto; }
+.eanbc-product.eanbc--align-right { margin-left: auto; }
+.eanbc-product__code { flex: 0 1 auto; }
+.eanbc-product__details { flex: 1 1 220px; min-width: 0; }
+.eanbc-product__name { margin: 0 0 .4em; font-size: 1.1em; font-weight: 700; line-height: 1.3; }
+.eanbc-product__meta { display: grid; grid-template-columns: auto 1fr; gap: .2em .9em; margin: 0 0 .6em; font-size: .9em; }
+.eanbc-product__meta dt { opacity: .6; margin: 0; }
+.eanbc-product__meta dd { margin: 0; }
+.eanbc-product__details .eanbc-link { font-size: .9em; font-weight: 600; }
+
+.eanbc-error {
+	display: inline-block; padding: .3em .6em; border-radius: 6px; font-size: .85em;
+	background: #fef2f2; color: #991b1b; border: 1px dashed #fca5a5;
+}
+.eanbc-product__source { margin: .5em 0 0; font-size: .75em; opacity: .6; }
+.eanbc-product__source a { color: inherit; }
+
+/* WooCommerce product page */
+.eanbc-wc { margin: 1em 0; }
+.eanbc-wc--meta { margin: .5em 0 0; font-size: var(--wp--preset--font-size--small, .875em); }
+.eanbc-wc--meta .eanbc-wc__item { display: flex; flex-wrap: wrap; align-items: center; gap: .5em; }
+.eanbc-wc .eanbc-wc__item[hidden] { display: none; } /* More specific than the flex rule above. */
+.eanbc-wc__label { font-weight: 600; }
+.eanbc-wc--meta .eanbc { margin: 0; }
+
+/* QR code (GS1 Digital Link) */
+.eanbc--qr .eanbc-caption { text-align: center; }
+.eanbc-hri { display: block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: .8em; letter-spacing: .02em; }

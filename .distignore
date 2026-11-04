@@ -1,0 +1,14 @@
+# Files and folders that are left out of the installable plugin ZIP (see bin/build-zip.sh).
+/.git
+/.github
+/.gitignore
+/.gitattributes
+/.distignore
+/README.md
+/bin
+/dist
+.directory
+.DS_Store
+Thumbs.db
+*.zip
+/phpcs.xml.dist

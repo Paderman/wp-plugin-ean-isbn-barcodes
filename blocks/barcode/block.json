@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "eanbc/barcode",
+	"version": "1.0.0",
+	"title": "EAN & ISBN Barcode",
+	"category": "widgets",
+	"icon": "editor-justify",
+	"description": "Shows an EAN, UPC, ISBN, ISSN or ISMN barcode or a GS1 Digital Link QR code, optionally with product data from several sources.",
+	"keywords": [ "ean", "isbn", "barcode", "gtin", "book", "upc", "issn", "qr" ],
+	"textdomain": "ean-isbn-barcodes",
+	"attributes": {
+		"ean": { "type": "string", "default": "" },
+		"mode": { "type": "string", "default": "barcode" },
+		"type": { "type": "string", "default": "" },
+		"width": { "type": "string", "default": "" },
+		"height": { "type": "string", "default": "" },
+		"number": { "type": "string", "default": "" },
+		"name": { "type": "string", "default": "" },
+		"link": { "type": "string", "default": "" },
+		"look": { "type": "string", "default": "" },
+		"title": { "type": "string", "default": "" },
+		"caption": { "type": "string", "default": "" },
+		"color": { "type": "string", "default": "" },
+		"background": { "type": "string", "default": "" },
+		"isbnText": { "type": "string", "default": "" },
+		"source": { "type": "string", "default": "" },
+		"output": { "type": "string", "default": "" },
+		"fallback": { "type": "string", "default": "" },
+		"url": { "type": "string", "default": "" },
+		"addon": { "type": "string", "default": "" },
+		"batch": { "type": "string", "default": "" },
+		"serial": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "left", "center", "right" ],
+		"spacing": { "margin": true }
+	},
+	"editorScript": "eanbc-block-editor",
+	"style": "eanbc-frontend"
+}

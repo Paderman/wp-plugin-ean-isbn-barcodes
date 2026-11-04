@@ -1,0 +1,1914 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EAN & ISBN Barcodes 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04T23:06:02+00:00\n"
+"PO-Revision-Date: 2026-11-04T22:18:04+00:00\n"
+"Last-Translator: pader-man\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: ean-isbn-barcodes\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#. Plugin Name of the plugin
+#: ean-isbn-barcodes.php includes/class-eanbc-admin.php:61
+#: includes/class-eanbc-admin.php:494 includes/class-eanbc-admin.php:502
+#: includes/class-eanbc-providers.php:205
+msgid "EAN & ISBN Barcodes"
+msgstr "Códigos de barras EAN e ISBN"
+
+#. Plugin URI of the plugin
+#: ean-isbn-barcodes.php
+msgid "https://github.com/Paderman/wp-plugin-ean-isbn-barcodes"
+msgstr "https://github.com/Paderman/wp-plugin-ean-isbn-barcodes"
+
+#. Description of the plugin
+#: ean-isbn-barcodes.php
+msgid ""
+"EAN, UPC, ISBN, ISSN and ISMN barcodes as block or shortcode – with product "
+"names and product cards from several data sources (Open Library, Open Food "
+"Facts, ean-search.org)."
+msgstr ""
+"Códigos de barras EAN, UPC, ISBN, ISSN e ISMN como bloque o shortcode – con "
+"nombres y fichas de producto de varias fuentes de datos (Open Library, Open "
+"Food Facts, ean-search.org)."
+
+#. Author of the plugin
+#: ean-isbn-barcodes.php
+msgid "pader-man"
+msgstr "pader-man"
+
+#. Author URI of the plugin
+#: ean-isbn-barcodes.php
+msgid "https://github.com/Paderman"
+msgstr "https://github.com/Paderman"
+
+#: includes/class-eanbc-admin.php:138
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-eanbc-admin.php:139 includes/class-eanbc-admin.php:1081
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/class-eanbc-admin.php:162
+msgid "EAN & ISBN Barcodes is ready."
+msgstr "Códigos de barras EAN e ISBN está listo."
+
+#: includes/class-eanbc-admin.php:163
+msgid ""
+"You will find all settings in the left admin menu under “EAN & ISBN "
+"Barcodes” (directly below “Settings”). You can move the entry later if you "
+"prefer."
+msgstr ""
+"Todos los ajustes están en el menú de administración de la izquierda, en "
+"«Códigos de barras EAN e ISBN» (justo debajo de «Ajustes»). La entrada se "
+"puede mover más adelante si se prefiere."
+
+#: includes/class-eanbc-admin.php:165
+msgid "Open settings"
+msgstr "Abrir ajustes"
+
+#: includes/class-eanbc-admin.php:192
+msgid "Copied!"
+msgstr "¡Copiado!"
+
+#: includes/class-eanbc-admin.php:193 includes/class-eanbc-admin.php:1000
+#: includes/class-eanbc-admin.php:1069
+msgid "Copy"
+msgstr "Copiar"
+
+#: includes/class-eanbc-admin.php:194
+msgid "Testing connection…"
+msgstr "Probando la conexión…"
+
+#: includes/class-eanbc-admin.php:195
+msgid "Clearing…"
+msgstr "Vaciando…"
+
+#: includes/class-eanbc-admin.php:196
+msgid "You have unsaved changes."
+msgstr "Hay cambios sin guardar."
+
+#: includes/class-eanbc-admin.php:197 includes/class-eanbc-admin.php:720
+msgid "All changes saved."
+msgstr "Todos los cambios guardados."
+
+#: includes/class-eanbc-admin.php:198 includes/class-eanbc-woocommerce.php:304
+msgid "Something went wrong. Please try again."
+msgstr "Algo salió mal. Inténtalo de nuevo."
+
+#: includes/class-eanbc-admin.php:199 includes/class-eanbc-admin.php:978
+msgid "Show"
+msgstr "Mostrar"
+
+#: includes/class-eanbc-admin.php:200 includes/class-eanbc-admin.php:602
+msgid "Hide"
+msgstr "Ocultar"
+
+#: includes/class-eanbc-admin.php:201
+msgid "You have unsaved changes. Leave anyway?"
+msgstr "Hay cambios sin guardar. ¿Salir de todos modos?"
+
+#: includes/class-eanbc-admin.php:202 includes/class-eanbc-admin.php:738
+msgid "Pause examples"
+msgstr "Pausar ejemplos"
+
+#: includes/class-eanbc-admin.php:203
+msgid "Play examples"
+msgstr "Reproducir ejemplos"
+
+#: includes/class-eanbc-admin.php:204
+msgid "Own input"
+msgstr "Entrada propia"
+
+#: includes/class-eanbc-admin.php:205
+msgid "Defaults restored. They apply once you click “Save settings”."
+msgstr ""
+"Valores predeterminados restablecidos. Se aplican al hacer clic en «Guardar "
+"ajustes»."
+
+#: includes/class-eanbc-admin.php:206
+msgid "All builder fields reset."
+msgstr "Todos los campos del generador restablecidos."
+
+#: includes/class-eanbc-admin.php:207
+msgid "Previous values restored."
+msgstr "Valores anteriores restaurados."
+
+#: includes/class-eanbc-admin.php:208
+msgid "Everything on this tab already uses the defaults."
+msgstr "Todo en esta pestaña ya usa los valores predeterminados."
+
+#: includes/class-eanbc-admin.php:209
+msgid "Undo"
+msgstr "Deshacer"
+
+#: includes/class-eanbc-admin.php:225
+msgid "Permission denied."
+msgstr "Permiso denegado."
+
+#: includes/class-eanbc-admin.php:260
+msgid "Nothing to show (no product data or invalid code)."
+msgstr "Nada que mostrar (sin datos de producto o código no válido)."
+
+#: includes/class-eanbc-admin.php:273
+msgid "Unknown data source."
+msgstr "Fuente de datos desconocida."
+
+#: includes/class-eanbc-admin.php:277
+msgid "Please enter an API token first."
+msgstr "Introduce primero un token de API."
+
+#: includes/class-eanbc-admin.php:292
+msgid "Cache cleared. Product data will be fetched fresh."
+msgstr "Caché vaciada. Los datos de producto se obtendrán de nuevo."
+
+#: includes/class-eanbc-admin.php:481
+msgid "General"
+msgstr "General"
+
+#: includes/class-eanbc-admin.php:482
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: includes/class-eanbc-admin.php:483 includes/class-eanbc-admin.php:686
+msgid "Data sources"
+msgstr "Fuentes de datos"
+
+#: includes/class-eanbc-admin.php:489 includes/class-eanbc-admin.php:1009
+msgid "Shortcode builder"
+msgstr "Generador de shortcodes"
+
+#: includes/class-eanbc-admin.php:490
+msgid "Help"
+msgstr "Ayuda"
+
+#: includes/class-eanbc-admin.php:503
+msgid ""
+"Barcodes for posts, pages, products and books – with product data from "
+"several sources"
+msgstr ""
+"Códigos de barras para entradas, páginas, productos y libros – con datos de "
+"producto de varias fuentes"
+
+#. translators: %d: number of active data sources
+#: includes/class-eanbc-admin.php:512
+#, php-format
+msgid "%d data source active"
+msgid_plural "%d data sources active"
+msgstr[0] "%d fuente de datos activa"
+msgstr[1] "%d fuentes de datos activas"
+
+#: includes/class-eanbc-admin.php:513
+msgid "No data source active"
+msgstr "Ninguna fuente de datos activa"
+
+#: includes/class-eanbc-admin.php:527
+msgid ""
+"The menu entry was moved. This page is now located at the new place in the "
+"admin menu."
+msgstr ""
+"La entrada del menú se ha movido. Esta página está ahora en el nuevo lugar "
+"del menú de administración."
+
+#: includes/class-eanbc-admin.php:530
+msgid "Settings sections"
+msgstr "Secciones de ajustes"
+
+#: includes/class-eanbc-admin.php:544
+msgid "This settings page"
+msgstr "Esta página de ajustes"
+
+#: includes/class-eanbc-admin.php:544
+msgid "Too many plugins? Put this page where you look for it."
+msgstr "¿Demasiados plugins? Coloca esta página donde la busques."
+
+#: includes/class-eanbc-admin.php:547
+msgid "Menu position"
+msgstr "Posición en el menú"
+
+#: includes/class-eanbc-admin.php:549
+msgid "Own menu item"
+msgstr "Entrada de menú propia"
+
+#: includes/class-eanbc-admin.php:550
+msgid "Under “Settings”"
+msgstr "En «Ajustes»"
+
+#: includes/class-eanbc-admin.php:551
+msgid "Under “Tools”"
+msgstr "En «Herramientas»"
+
+#: includes/class-eanbc-admin.php:553
+msgid "The plugin list always contains a direct “Settings” link as well."
+msgstr ""
+"La lista de plugins siempre incluye también un enlace directo a «Ajustes»."
+
+#. translators: %d: number of seconds.
+#: includes/class-eanbc-admin.php:558
+#, php-format
+msgid "Every %d second"
+msgid_plural "Every %d seconds"
+msgstr[0] "Cada %d segundo"
+msgstr[1] "Cada %d segundos"
+
+#. translators: %d: number of seconds.
+#: includes/class-eanbc-admin.php:558
+msgid "Off – show one example"
+msgstr "Desactivado – mostrar un solo ejemplo"
+
+#: includes/class-eanbc-admin.php:562
+msgid "Change preview examples"
+msgstr "Cambiar ejemplos de la vista previa"
+
+#: includes/class-eanbc-admin.php:564
+msgid ""
+"How often the live preview switches to the next code type. Pausing is always"
+" possible with the button next to the input field."
+msgstr ""
+"Con qué frecuencia la vista previa en vivo pasa al siguiente tipo de código."
+" Siempre se puede pausar con el botón junto al campo de entrada."
+
+#: includes/class-eanbc-admin.php:568
+msgid "Fade between examples"
+msgstr "Fundido entre ejemplos"
+
+#: includes/class-eanbc-admin.php:570
+msgid "Off – switch instantly"
+msgstr "Desactivado – cambiar al instante"
+
+#: includes/class-eanbc-admin.php:571
+msgid "Very fast (0.2 s)"
+msgstr "Muy rápido (0,2 s)"
+
+#: includes/class-eanbc-admin.php:572
+msgid "Fast (0.35 s)"
+msgstr "Rápido (0,35 s)"
+
+#: includes/class-eanbc-admin.php:573
+msgid "Normal (0.6 s)"
+msgstr "Normal (0,6 s)"
+
+#: includes/class-eanbc-admin.php:574
+msgid "Slow (1 s)"
+msgstr "Lento (1 s)"
+
+#: includes/class-eanbc-admin.php:575
+msgid "Very slow (1.5 s)"
+msgstr "Muy lento (1,5 s)"
+
+#: includes/class-eanbc-admin.php:577
+msgid ""
+"How softly one example blends into the next. With “Reduce motion” in the "
+"operating system, the examples only cross-fade, without movement."
+msgstr ""
+"Con qué suavidad un ejemplo pasa al siguiente. Con «Reducir movimiento» en "
+"el sistema operativo, los ejemplos solo se funden, sin movimiento."
+
+#: includes/class-eanbc-admin.php:581
+msgid "Links & behaviour"
+msgstr "Enlaces y comportamiento"
+
+#: includes/class-eanbc-admin.php:582
+msgid "Link barcodes"
+msgstr "Enlazar códigos de barras"
+
+#: includes/class-eanbc-admin.php:582
+msgid "Clicking a barcode opens a product page (see “Link target”)."
+msgstr ""
+"Al hacer clic en un código de barras se abre una página de producto (ver "
+"«Destino del enlace»)."
+
+#: includes/class-eanbc-admin.php:583
+msgid "Automatic – matching data source"
+msgstr "Automático – fuente de datos correspondiente"
+
+#: includes/class-eanbc-admin.php:589
+msgid "Own URL template"
+msgstr "Plantilla de URL propia"
+
+#: includes/class-eanbc-admin.php:590
+msgid "Link target"
+msgstr "Destino del enlace"
+
+#: includes/class-eanbc-admin.php:590
+msgid ""
+"“Automatic” links to the data source that delivered the product data. "
+"Without product data, books go to Open Library and other codes to ean-"
+"search.org (its product pages are public, no token needed). If a chosen site"
+" does not cover a code, “Automatic” is used."
+msgstr ""
+"«Automático» enlaza a la fuente de datos que proporcionó los datos del "
+"producto. Sin datos de producto, los libros van a Open Library y los demás "
+"códigos a ean-search.org (sus páginas de producto son públicas, sin token). "
+"Si el sitio elegido no cubre un código, se usa «Automático»."
+
+#: includes/class-eanbc-admin.php:591
+msgid "URL template"
+msgstr "Plantilla de URL"
+
+#: includes/class-eanbc-admin.php:591
+msgid ""
+"<code>{code}</code> is replaced by the EAN/ISBN (13 digits), e.g. a search "
+"in your own shop."
+msgstr ""
+"<code>{code}</code> se sustituye por el EAN/ISBN (13 dígitos), p. ej. una "
+"búsqueda en tu propia tienda."
+
+#: includes/class-eanbc-admin.php:594
+msgid "Open links in a new tab"
+msgstr "Abrir enlaces en una pestaña nueva"
+
+#: includes/class-eanbc-admin.php:595
+msgid "Add rel=\"nofollow\""
+msgstr "Añadir rel=\"nofollow\""
+
+#: includes/class-eanbc-admin.php:595
+msgid "Recommended for SEO when you show many barcodes."
+msgstr "Recomendado para el SEO si se muestran muchos códigos de barras."
+
+#: includes/class-eanbc-admin.php:598
+msgid "Invalid codes"
+msgstr "Códigos no válidos"
+
+#: includes/class-eanbc-admin.php:600
+msgid "Hint for editors"
+msgstr "Aviso para editores"
+
+#: includes/class-eanbc-admin.php:601
+msgid "Show as text"
+msgstr "Mostrar como texto"
+
+#: includes/class-eanbc-admin.php:604
+msgid ""
+"“Hint for editors” shows the reason (e.g. wrong check digit) to logged-in "
+"editors only – visitors see nothing."
+msgstr ""
+"«Aviso para editores» muestra el motivo (p. ej. dígito de control "
+"incorrecto) solo a los editores conectados – los visitantes no ven nada."
+
+#: includes/class-eanbc-admin.php:606
+msgid "Custom field for the EAN"
+msgstr "Campo personalizado para el EAN"
+
+#: includes/class-eanbc-admin.php:606
+msgid ""
+"Used when a shortcode has no <code>ean</code> or <code>isbn</code> "
+"attribute. The WooCommerce GTIN (also from Germanized, German Market and EAN"
+" for WooCommerce) and fields named <code>ean</code> or <code>isbn</code> are"
+" detected automatically."
+msgstr ""
+"Se usa cuando un shortcode no tiene el atributo <code>ean</code> o "
+"<code>isbn</code>. El GTIN de WooCommerce (también de Germanized, German "
+"Market y EAN for WooCommerce) y los campos llamados <code>ean</code> o "
+"<code>isbn</code> se detectan automáticamente."
+
+#: includes/class-eanbc-admin.php:616 includes/class-eanbc-admin.php:907
+#: includes/class-eanbc-admin.php:1017 includes/class-eanbc-block.php:113
+#: includes/class-eanbc-block.php:121
+msgid "Barcode"
+msgstr "Código de barras"
+
+#: includes/class-eanbc-admin.php:616
+msgid "Changes are shown instantly in the preview."
+msgstr "Los cambios se muestran al instante en la vista previa."
+
+#: includes/class-eanbc-admin.php:617
+msgid "Bar width"
+msgstr "Ancho de barra"
+
+#: includes/class-eanbc-admin.php:617
+msgid "px / module"
+msgstr "px / módulo"
+
+#: includes/class-eanbc-admin.php:617
+msgid ""
+"Thickness of the thinnest bar. 2 px is good for screens, 3 px+ for scanning "
+"from paper."
+msgstr ""
+"Grosor de la barra más fina. 2 px va bien para pantallas, 3 px o más para "
+"escanear desde papel."
+
+#: includes/class-eanbc-admin.php:618
+msgid "Bar height"
+msgstr "Altura de barra"
+
+#: includes/class-eanbc-admin.php:619
+msgid "Show digits below the bars"
+msgstr "Mostrar los dígitos bajo las barras"
+
+#: includes/class-eanbc-admin.php:620 includes/class-eanbc-block.php:149
+msgid "Show “ISBN …”, “ISSN …” or “ISMN …” above the bars"
+msgstr "Mostrar «ISBN …», «ISSN …» o «ISMN …» sobre las barras"
+
+#: includes/class-eanbc-admin.php:620
+msgid ""
+"Like on a book cover. ISBNs (978/979… or ISBN-10), ISSNs (977…) and ISMNs "
+"(979-0…) are detected automatically. Enter the number with hyphens to have "
+"them printed, e.g. 978-3-16-148410-0."
+msgstr ""
+"Como en la cubierta de un libro. Los ISBN (978/979… o ISBN-10), ISSN (977…) "
+"e ISMN (979-0…) se detectan automáticamente. Introduce el número con guiones"
+" para que se impriman, p. ej. 978-3-16-148410-0."
+
+#: includes/class-eanbc-admin.php:621 includes/class-eanbc-admin.php:1055
+#: includes/class-eanbc-block.php:146
+msgid "Bar color"
+msgstr "Color de las barras"
+
+#: includes/class-eanbc-admin.php:624 includes/class-eanbc-block.php:147
+msgid "Background"
+msgstr "Fondo"
+
+#: includes/class-eanbc-admin.php:629
+msgid "transparent"
+msgstr "transparente"
+
+#: includes/class-eanbc-admin.php:632
+msgid ""
+"Tip: Scanners need good contrast – dark bars on a light background work "
+"best."
+msgstr ""
+"Consejo: los escáneres necesitan buen contraste – barras oscuras sobre fondo"
+" claro funcionan mejor."
+
+#: includes/class-eanbc-admin.php:635
+msgid "Layout"
+msgstr "Diseño"
+
+#: includes/class-eanbc-admin.php:638 includes/class-eanbc-admin.php:1042
+msgid "Alignment"
+msgstr "Alineación"
+
+#: includes/class-eanbc-admin.php:640
+msgid "Theme default"
+msgstr "Predeterminado del tema"
+
+#: includes/class-eanbc-admin.php:641 includes/class-eanbc-admin.php:1045
+msgid "Left"
+msgstr "Izquierda"
+
+#: includes/class-eanbc-admin.php:642 includes/class-eanbc-admin.php:1046
+msgid "Center"
+msgstr "Centro"
+
+#: includes/class-eanbc-admin.php:643 includes/class-eanbc-admin.php:1047
+msgid "Right"
+msgstr "Derecha"
+
+#: includes/class-eanbc-admin.php:648 includes/class-eanbc-admin.php:1049
+#: includes/class-eanbc-block.php:129
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/class-eanbc-admin.php:650 includes/class-eanbc-admin.php:1052
+#: includes/class-eanbc-block.php:130
+msgid "Plain"
+msgstr "Sencillo"
+
+#: includes/class-eanbc-admin.php:651 includes/class-eanbc-admin.php:1053
+#: includes/class-eanbc-block.php:131
+msgid "Card"
+msgstr "Tarjeta"
+
+#: includes/class-eanbc-admin.php:653
+msgid "“Card” adds a subtle frame with rounded corners."
+msgstr "«Tarjeta» añade un marco discreto con esquinas redondeadas."
+
+#: includes/class-eanbc-admin.php:655
+msgid "Show product name below the barcode"
+msgstr "Mostrar el nombre del producto bajo el código de barras"
+
+#: includes/class-eanbc-admin.php:655
+msgid "The name comes from the active data sources."
+msgstr "El nombre procede de las fuentes de datos activas."
+
+#: includes/class-eanbc-admin.php:658
+msgid "Rendering"
+msgstr "Generación"
+
+#: includes/class-eanbc-admin.php:661 includes/class-eanbc-block.php:150
+msgid "Generate barcode"
+msgstr "Generar código de barras"
+
+#: includes/class-eanbc-admin.php:663 includes/class-eanbc-block.php:151
+msgid "Locally (SVG, recommended)"
+msgstr "Localmente (SVG, recomendado)"
+
+#: includes/class-eanbc-admin.php:664 includes/class-eanbc-block.php:152
+msgid "Via ean-search.org (PNG)"
+msgstr "A través de ean-search.org (PNG)"
+
+#: includes/class-eanbc-admin.php:666
+msgid ""
+"Local SVGs are razor-sharp, fast and need no requests to other services. The"
+" ean-search.org image needs an ean-search.org token; if it fails, the local "
+"renderer is used automatically."
+msgstr ""
+"Los SVG locales son totalmente nítidos, rápidos y no necesitan peticiones a "
+"otros servicios. La imagen de ean-search.org necesita un token de ean-"
+"search.org; si falla, se usa automáticamente el generador local."
+
+#: includes/class-eanbc-admin.php:670 includes/class-eanbc-block.php:153
+msgid "Embed as"
+msgstr "Insertar como"
+
+#: includes/class-eanbc-admin.php:672 includes/class-eanbc-block.php:154
+msgid "Inline SVG"
+msgstr "SVG en línea"
+
+#: includes/class-eanbc-admin.php:673 includes/class-eanbc-block.php:155
+msgid "Image (<img>)"
+msgstr "Imagen (<img>)"
+
+#: includes/class-eanbc-admin.php:675
+msgid "“Image” lets visitors save the barcode via right click."
+msgstr ""
+"«Imagen» permite a los visitantes guardar el código de barras con clic "
+"derecho."
+
+#: includes/class-eanbc-admin.php:686
+msgid ""
+"Product names and product cards come from these services, asked from top to "
+"bottom. If a service does not know a code or does not answer, the next one "
+"is asked. Barcodes themselves never need a data source."
+msgstr ""
+"Los nombres y fichas de producto proceden de estos servicios, consultados de"
+" arriba abajo. Si un servicio no conoce un código o no responde, se consulta"
+" el siguiente. Los códigos de barras en sí nunca necesitan una fuente de "
+"datos."
+
+#: includes/class-eanbc-admin.php:692
+msgid ""
+"Open databases are maintained by volunteers and may contain mistakes. In the"
+" block editor, a fetched name can be corrected before publishing."
+msgstr ""
+"Las bases de datos abiertas las mantienen voluntarios y pueden contener "
+"errores. En el editor de bloques, un nombre obtenido se puede corregir antes"
+" de publicar."
+
+#: includes/class-eanbc-admin.php:695
+msgid "Connection & cache"
+msgstr "Conexión y caché"
+
+#: includes/class-eanbc-admin.php:695
+msgid ""
+"Product data rarely changes. Caching saves requests and keeps your pages "
+"fast."
+msgstr ""
+"Los datos de producto cambian poco. La caché ahorra peticiones y mantiene "
+"las páginas rápidas."
+
+#: includes/class-eanbc-admin.php:696
+msgid "Request timeout"
+msgstr "Tiempo de espera de las peticiones"
+
+#: includes/class-eanbc-admin.php:696
+msgid "seconds"
+msgstr "segundos"
+
+#: includes/class-eanbc-admin.php:697
+msgid "Keep product data for"
+msgstr "Conservar los datos de producto durante"
+
+#: includes/class-eanbc-admin.php:697
+msgid "days"
+msgstr "días"
+
+#: includes/class-eanbc-admin.php:697
+msgid "0 disables the cache (not recommended)."
+msgstr "0 desactiva la caché (no recomendado)."
+
+#: includes/class-eanbc-admin.php:698
+msgid "Clear cache"
+msgstr "Vaciar caché"
+
+#: includes/class-eanbc-admin.php:698
+msgid "Fetch all product data fresh on the next page view."
+msgstr ""
+"Obtener todos los datos de producto de nuevo en la próxima visita a la "
+"página."
+
+#: includes/class-eanbc-admin.php:699
+msgid "Clear now"
+msgstr "Vaciar ahora"
+
+#: includes/class-eanbc-admin.php:721
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: includes/class-eanbc-admin.php:729
+msgid "Live preview"
+msgstr "Vista previa en vivo"
+
+#: includes/class-eanbc-admin.php:729
+msgid "Uses your current, unsaved settings."
+msgstr "Usa los ajustes actuales, aún sin guardar."
+
+#: includes/class-eanbc-admin.php:734
+msgid "EAN or ISBN for the preview"
+msgstr "EAN o ISBN para la vista previa"
+
+#: includes/class-eanbc-admin.php:748
+msgid "Quick start"
+msgstr "Inicio rápido"
+
+#: includes/class-eanbc-admin.php:750
+msgid ""
+"Paste into any post, page or widget. In the block editor, search for the "
+"“EAN & ISBN Barcode” block."
+msgstr ""
+"Pégalo en cualquier entrada, página o widget. En el editor de bloques, busca"
+" el bloque «Código de barras EAN e ISBN»."
+
+#: includes/class-eanbc-admin.php:789
+msgid ""
+"Switches all data sources on and restores their order, the timeout and the "
+"cache time. API tokens are kept. Nothing changes until you save."
+msgstr ""
+"Activa todas las fuentes de datos y restablece su orden, el tiempo de espera"
+" y la duración de la caché. Los tokens de API se conservan. Nada cambia "
+"hasta guardar."
+
+#: includes/class-eanbc-admin.php:790
+msgid "Empties the builder fields and starts again with the example code."
+msgstr ""
+"Vacía los campos del generador y empieza de nuevo con el código de ejemplo."
+
+#: includes/class-eanbc-admin.php:792
+msgid ""
+"Sets everything on this tab back to the defaults. Nothing changes until you "
+"save."
+msgstr ""
+"Restablece todo lo de esta pestaña a los valores predeterminados. Nada "
+"cambia hasta guardar."
+
+#: includes/class-eanbc-admin.php:796
+msgid "Reset this tab"
+msgstr "Restablecer esta pestaña"
+
+#: includes/class-eanbc-admin.php:806
+msgid "EAN-13 – the usual product code in Europe"
+msgstr "EAN-13 – el código de producto habitual en Europa"
+
+#: includes/class-eanbc-admin.php:807
+msgid "EAN-8 – short code for small packages"
+msgstr "EAN-8 – código corto para envases pequeños"
+
+#: includes/class-eanbc-admin.php:808
+msgid "UPC-A – product code in the USA and Canada"
+msgstr "UPC-A – código de producto en EE. UU. y Canadá"
+
+#: includes/class-eanbc-admin.php:809
+msgid "UPC-E – short form of UPC-A"
+msgstr "UPC-E – forma corta del UPC-A"
+
+#: includes/class-eanbc-admin.php:810
+msgid "ISBN – book with the “ISBN …” line"
+msgstr "ISBN – libro con la línea «ISBN …»"
+
+#: includes/class-eanbc-admin.php:811
+msgid "ISBN + price"
+msgstr "ISBN + precio"
+
+#: includes/class-eanbc-admin.php:811
+msgid "Book with a 5-digit price add-on (5 = US dollars, 24.99)"
+msgstr ""
+"Libro con complemento de precio de 5 dígitos (5 = dólares estadounidenses, "
+"24,99)"
+
+#: includes/class-eanbc-admin.php:812
+msgid "ISSN + issue"
+msgstr "ISSN + número"
+
+#: includes/class-eanbc-admin.php:812
+msgid "ISSN – periodical with issue number 05 as add-on"
+msgstr "ISSN – publicación periódica con el número 05 como complemento"
+
+#: includes/class-eanbc-admin.php:813
+msgid "ISMN – sheet music"
+msgstr "ISMN – partituras"
+
+#: includes/class-eanbc-admin.php:814
+msgid "QR code"
+msgstr "Código QR"
+
+#: includes/class-eanbc-admin.php:814
+msgid "QR code with the GS1 Digital Link of the product"
+msgstr "Código QR con el GS1 Digital Link del producto"
+
+#: includes/class-eanbc-admin.php:816
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: includes/class-eanbc-admin.php:834 includes/class-eanbc-admin.php:908
+#: includes/class-eanbc-admin.php:1020 includes/class-eanbc-block.php:116
+msgid "QR code (GS1 Digital Link)"
+msgstr "Código QR (GS1 Digital Link)"
+
+#: includes/class-eanbc-admin.php:834
+msgid ""
+"The QR code contains a web address with the GTIN. Phones open it, and "
+"2D-capable checkout scanners read the GTIN from it – the successor of the "
+"classic barcode (GS1 “Sunrise 2027”)."
+msgstr ""
+"El código QR contiene una dirección web con el GTIN. Los móviles la abren y "
+"los escáneres de caja compatibles con 2D leen de ella el GTIN – el sucesor "
+"del código de barras clásico (GS1 «Sunrise 2027»)."
+
+#: includes/class-eanbc-admin.php:838
+msgid "Web address in the QR code"
+msgstr "Dirección web en el código QR"
+
+#: includes/class-eanbc-admin.php:840
+msgid "GS1 (id.gs1.org) – works without setup"
+msgstr "GS1 (id.gs1.org) – funciona sin configuración"
+
+#: includes/class-eanbc-admin.php:841
+msgid "This website – leads to the product in the shop"
+msgstr "Este sitio web – lleva al producto en la tienda"
+
+#: includes/class-eanbc-admin.php:842
+msgid "Own resolver domain"
+msgstr "Dominio de resolución propio"
+
+#. translators: 1: example address with GS1, 2: example address with this
+#. website
+#: includes/class-eanbc-admin.php:846
+#, php-format
+msgid ""
+"Example: %1$s. With “This website” the code reads %2$s; the plugin then "
+"forwards to the WooCommerce product with this GTIN, otherwise to the link "
+"target."
+msgstr ""
+"Ejemplo: %1$s. Con «Este sitio web» el código es %2$s; el plugin redirige "
+"entonces al producto de WooCommerce con este GTIN o, si no, al destino del "
+"enlace."
+
+#: includes/class-eanbc-admin.php:855
+msgid ""
+"“This website” needs speaking permalinks (not “Plain”). Until then, GS1 is "
+"used."
+msgstr ""
+"«Este sitio web» necesita enlaces permanentes amigables (no «Simple»). "
+"Mientras tanto se usa GS1."
+
+#: includes/class-eanbc-admin.php:857
+msgid "Change permalinks"
+msgstr "Cambiar enlaces permanentes"
+
+#: includes/class-eanbc-admin.php:861
+msgid "Resolver domain"
+msgstr "Dominio de resolución"
+
+#: includes/class-eanbc-admin.php:861
+msgid ""
+"A domain that answers GS1 Digital Link addresses (…/01/{GTIN}), e.g. from "
+"your GS1 organisation or ERP."
+msgstr ""
+"Un dominio que responde a direcciones GS1 Digital Link (…/01/{GTIN}), p. ej."
+" de tu organización GS1 o de tu ERP."
+
+#: includes/class-eanbc-admin.php:864
+msgid "QR code size"
+msgstr "Tamaño del código QR"
+
+#: includes/class-eanbc-admin.php:864
+msgid "px per square"
+msgstr "px por cuadrado"
+
+#: includes/class-eanbc-admin.php:864
+msgid "For print, at least 0.4 mm per square is recommended."
+msgstr "Para imprimir se recomienda al menos 0,4 mm por cuadrado."
+
+#: includes/class-eanbc-admin.php:867
+msgid "Error correction"
+msgstr "Corrección de errores"
+
+#: includes/class-eanbc-admin.php:869
+msgid "L – smallest code (7 %)"
+msgstr "L – código más pequeño (7 %)"
+
+#: includes/class-eanbc-admin.php:870
+msgid "M – recommended (15 %)"
+msgstr "M – recomendado (15 %)"
+
+#: includes/class-eanbc-admin.php:871
+msgid "Q – robust (25 %)"
+msgstr "Q – robusto (25 %)"
+
+#: includes/class-eanbc-admin.php:872
+msgid "H – very robust (30 %)"
+msgstr "H – muy robusto (30 %)"
+
+#: includes/class-eanbc-admin.php:874
+msgid "How much of the code may be damaged or covered and still be read."
+msgstr ""
+"Qué parte del código puede estar dañada o tapada y seguir siendo legible."
+
+#: includes/class-eanbc-admin.php:892
+msgid "Product page"
+msgstr "Página de producto"
+
+#: includes/class-eanbc-admin.php:892
+msgid ""
+"Shows the barcode of the product’s GTIN in the shop. For variable products, "
+"the barcode changes with the selected variation."
+msgstr ""
+"Muestra el código de barras del GTIN del producto en la tienda. En productos"
+" variables, el código cambia con la variación elegida."
+
+#: includes/class-eanbc-admin.php:895
+msgid "Barcode on the product page"
+msgstr "Código de barras en la página de producto"
+
+#: includes/class-eanbc-admin.php:897
+msgid "Do not show"
+msgstr "No mostrar"
+
+#: includes/class-eanbc-admin.php:898
+msgid "With SKU and categories"
+msgstr "Con SKU y categorías"
+
+#: includes/class-eanbc-admin.php:899
+msgid "Below the product summary"
+msgstr "Debajo del resumen del producto"
+
+#: includes/class-eanbc-admin.php:901
+msgid ""
+"Size and colours follow the “Appearance” tab. Products without a GTIN show "
+"nothing."
+msgstr ""
+"El tamaño y los colores siguen la pestaña «Apariencia». Los productos sin "
+"GTIN no muestran nada."
+
+#: includes/class-eanbc-admin.php:905
+msgid "Code type"
+msgstr "Tipo de código"
+
+#: includes/class-eanbc-admin.php:909
+msgid "Barcode and QR code"
+msgstr "Código de barras y código QR"
+
+#: includes/class-eanbc-admin.php:914
+msgid "Product management"
+msgstr "Gestión de productos"
+
+#: includes/class-eanbc-admin.php:915
+msgid "GTIN column in the product list"
+msgstr "Columna GTIN en la lista de productos"
+
+#: includes/class-eanbc-admin.php:915
+msgid ""
+"Small barcode with the code; invalid GTINs (e.g. wrong check digit) are "
+"marked in red."
+msgstr ""
+"Código de barras pequeño con el código; los GTIN no válidos (p. ej. dígito "
+"de control incorrecto) se marcan en rojo."
+
+#: includes/class-eanbc-admin.php:916
+msgid "Look up product data in the product editor"
+msgstr "Buscar datos de producto en el editor de productos"
+
+#: includes/class-eanbc-admin.php:916
+msgid ""
+"Button next to the GTIN field: shows name, brand or author from the data "
+"sources and can take the name over as product name."
+msgstr ""
+"Botón junto al campo GTIN: muestra nombre, marca o autor desde las fuentes "
+"de datos y puede usar el nombre como nombre del producto."
+
+#: includes/class-eanbc-admin.php:919
+msgid "GTIN fields"
+msgstr "Campos GTIN"
+
+#: includes/class-eanbc-admin.php:919
+msgid ""
+"The GTIN is read from these fields, top to bottom. Developers can add more "
+"via the “eanbc_gtin_meta_keys” filter."
+msgstr ""
+"El GTIN se lee de estos campos, de arriba abajo. Los desarrolladores pueden "
+"añadir más con el filtro «eanbc_gtin_meta_keys»."
+
+#: includes/class-eanbc-admin.php:920
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/class-eanbc-admin.php:920
+msgid "Field"
+msgstr "Campo"
+
+#: includes/class-eanbc-admin.php:920
+msgid "Products with a value"
+msgstr "Productos con valor"
+
+#: includes/class-eanbc-admin.php:944
+msgid "Website"
+msgstr "Sitio web"
+
+#: includes/class-eanbc-admin.php:947
+msgid "Terms of use"
+msgstr "Condiciones de uso"
+
+#. translators: %s: data source name
+#: includes/class-eanbc-admin.php:958
+#, php-format
+msgid "Use %s"
+msgstr "Usar %s"
+
+#. translators: %s: data source name
+#: includes/class-eanbc-admin.php:966
+#, php-format
+msgid "Move %s up"
+msgstr "Subir %s"
+
+#. translators: %s: data source name
+#: includes/class-eanbc-admin.php:967
+#, php-format
+msgid "Move %s down"
+msgstr "Bajar %s"
+
+#. translators: %s: data source name
+#: includes/class-eanbc-admin.php:976
+#, php-format
+msgid "API token for %s"
+msgstr "Token de API para %s"
+
+#. translators: %s: data source name
+#: includes/class-eanbc-admin.php:977
+msgid "API token"
+msgstr "Token de API"
+
+#: includes/class-eanbc-admin.php:980
+msgid "Test connection"
+msgstr "Probar conexión"
+
+#: includes/class-eanbc-admin.php:982
+msgid "Get a token"
+msgstr "Obtener un token"
+
+#: includes/class-eanbc-admin.php:1008 includes/class-eanbc-admin.php:1044
+#: includes/class-eanbc-admin.php:1051
+msgid "Default"
+msgstr "Predeterminado"
+
+#: includes/class-eanbc-admin.php:1008 includes/class-eanbc-block.php:159
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/class-eanbc-admin.php:1008 includes/class-eanbc-block.php:160
+msgid "No"
+msgstr "No"
+
+#: includes/class-eanbc-admin.php:1009
+msgid ""
+"Click your barcode together and copy the shortcode. Empty fields use the "
+"global settings."
+msgstr ""
+"Monta tu código de barras con unos clics y copia el shortcode. Los campos "
+"vacíos usan los ajustes globales."
+
+#: includes/class-eanbc-admin.php:1013 includes/class-eanbc-block.php:103
+msgid "EAN / ISBN / GTIN"
+msgstr "EAN / ISBN / GTIN"
+
+#: includes/class-eanbc-admin.php:1015
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-eanbc-admin.php:1018 includes/class-eanbc-block.php:114
+msgid "Product card"
+msgstr "Ficha de producto"
+
+#: includes/class-eanbc-admin.php:1019
+msgid "Product name (text)"
+msgstr "Nombre del producto (texto)"
+
+#: includes/class-eanbc-admin.php:1022 includes/class-eanbc-block.php:105
+msgid "Format"
+msgstr "Formato"
+
+#: includes/class-eanbc-admin.php:1024 includes/class-eanbc-block.php:106
+msgid "Automatic"
+msgstr "Automático"
+
+#: includes/class-eanbc-admin.php:1029 includes/class-eanbc-block.php:107
+msgid "ISBN (book)"
+msgstr "ISBN (libro)"
+
+#: includes/class-eanbc-admin.php:1030 includes/class-eanbc-block.php:108
+msgid "ISSN (periodical)"
+msgstr "ISSN (publicación periódica)"
+
+#: includes/class-eanbc-admin.php:1031 includes/class-eanbc-block.php:109
+msgid "ISMN (sheet music)"
+msgstr "ISMN (partitura)"
+
+#: includes/class-eanbc-admin.php:1033 includes/class-eanbc-block.php:110
+#: includes/class-eanbc-renderer.php:476
+msgid "Add-on"
+msgstr "Complemento"
+
+#: includes/class-eanbc-admin.php:1035
+msgid "Bar width (px)"
+msgstr "Ancho de barra (px)"
+
+#: includes/class-eanbc-admin.php:1037 includes/class-eanbc-block.php:123
+msgid "Bar height (px)"
+msgstr "Altura de barra (px)"
+
+#: includes/class-eanbc-admin.php:1039
+msgid "Digits"
+msgstr "Dígitos"
+
+#: includes/class-eanbc-admin.php:1040
+msgid "Product name"
+msgstr "Nombre del producto"
+
+#: includes/class-eanbc-admin.php:1041
+msgid "Link"
+msgstr "Enlace"
+
+#: includes/class-eanbc-admin.php:1057 includes/class-eanbc-block.php:132
+msgid "Own product name"
+msgstr "Nombre de producto propio"
+
+#: includes/class-eanbc-admin.php:1059 includes/class-eanbc-block.php:127
+msgid "Link target (URL)"
+msgstr "Destino del enlace (URL)"
+
+#: includes/class-eanbc-admin.php:1061 includes/class-eanbc-block.php:118
+msgid "Batch / lot"
+msgstr "Lote"
+
+#: includes/class-eanbc-admin.php:1063 includes/class-eanbc-block.php:119
+msgid "Serial number"
+msgstr "Número de serie"
+
+#: includes/class-eanbc-admin.php:1065 includes/class-eanbc-block.php:143
+msgid "Caption"
+msgstr "Leyenda"
+
+#: includes/class-eanbc-admin.php:1083
+msgid ""
+"Barcode. Aliases: [ean] and [ean_barcode] (the latter always works, even if "
+"another plugin uses [barcode])."
+msgstr ""
+"Código de barras. Alias: [ean] y [ean_barcode] (este último funciona "
+"siempre, aunque otro plugin use [barcode])."
+
+#: includes/class-eanbc-admin.php:1084
+msgid "Short form without attribute name."
+msgstr "Forma corta sin nombre de atributo."
+
+#: includes/class-eanbc-admin.php:1085
+msgid "GTIN-14 with leading zero is converted to EAN-13 automatically."
+msgstr "Un GTIN-14 con cero inicial se convierte automáticamente en EAN-13."
+
+#: includes/class-eanbc-admin.php:1086
+msgid ""
+"Without EAN: uses the custom field of the current post or the WooCommerce "
+"GTIN."
+msgstr ""
+"Sin EAN: usa el campo personalizado de la entrada actual o el GTIN de "
+"WooCommerce."
+
+#: includes/class-eanbc-admin.php:1087
+msgid "Product card with barcode, name and details from the data sources."
+msgstr ""
+"Ficha de producto con código de barras, nombre y detalles de las fuentes de "
+"datos."
+
+#: includes/class-eanbc-admin.php:1088
+msgid "Only the product name as text – great inside tables and lists."
+msgstr "Solo el nombre del producto como texto – ideal en tablas y listas."
+
+#: includes/class-eanbc-admin.php:1089
+msgid ""
+"Book barcode with the “ISBN …” line above the bars. Alias: [isbn_barcode] "
+"(always works, even if another plugin uses [isbn])."
+msgstr ""
+"Código de barras de libro con la línea «ISBN …» sobre las barras. Alias: "
+"[isbn_barcode] (funciona siempre, aunque otro plugin use [isbn])."
+
+#: includes/class-eanbc-admin.php:1090
+msgid "ISBN-10 is converted to ISBN-13 (978…) automatically."
+msgstr "El ISBN-10 se convierte automáticamente en ISBN-13 (978…)."
+
+#: includes/class-eanbc-admin.php:1091
+msgid ""
+"Product card for a book: title, author, publisher, ISBN-13 and ISBN-10."
+msgstr ""
+"Ficha de producto de un libro: título, autor, editorial, ISBN-13 e ISBN-10."
+
+#: includes/class-eanbc-admin.php:1092
+msgid "Only the book title as text."
+msgstr "Solo el título del libro como texto."
+
+#: includes/class-eanbc-admin.php:1093
+msgid ""
+"With a 5-digit add-on, e.g. the price on books (5 = US dollars, 2499 = "
+"24.99)."
+msgstr ""
+"Con un complemento de 5 dígitos, p. ej. el precio en los libros (5 = dólares"
+" estadounidenses, 2499 = 24,99)."
+
+#: includes/class-eanbc-admin.php:1094
+msgid ""
+"Periodical: the ISSN becomes an EAN-13 with 977, the 2-digit add-on is the "
+"issue number."
+msgstr ""
+"Publicación periódica: el ISSN se convierte en un EAN-13 con 977, el "
+"complemento de 2 dígitos es el número."
+
+#: includes/class-eanbc-admin.php:1095
+msgid ""
+"Sheet music (ISMN) with the “ISMN …” line. Old ISMNs starting with M are "
+"converted."
+msgstr ""
+"Partitura (ISMN) con la línea «ISMN …». Los ISMN antiguos que empiezan por M"
+" se convierten."
+
+#: includes/class-eanbc-admin.php:1096
+msgid ""
+"UPC-E – the short form of UPC-A for small packages. Use type=\"upce\" to "
+"shorten a UPC-A."
+msgstr ""
+"UPC-E – la forma corta del UPC-A para envases pequeños. Usa type=\"upce\" "
+"para acortar un UPC-A."
+
+#: includes/class-eanbc-admin.php:1097
+msgid ""
+"QR code with the GS1 Digital Link: phones open the product’s web address, "
+"2D-capable checkout scanners read the GTIN. Alias: [gs1_qr]."
+msgstr ""
+"Código QR con el GS1 Digital Link: los móviles abren la dirección web del "
+"producto, los escáneres de caja compatibles con 2D leen el GTIN. Alias: "
+"[gs1_qr]."
+
+#: includes/class-eanbc-admin.php:1098
+msgid "QR code with batch and serial number, e.g. for labels."
+msgstr "Código QR con lote y número de serie, p. ej. para etiquetas."
+
+#: includes/class-eanbc-admin.php:1109
+msgid "Attributes"
+msgstr "Atributos"
+
+#: includes/class-eanbc-admin.php:1109
+msgid ""
+"All attributes are optional and override the global settings for a single "
+"barcode."
+msgstr ""
+"Todos los atributos son opcionales y sustituyen a los ajustes globales para "
+"un solo código de barras."
+
+#: includes/class-eanbc-admin.php:1111
+msgid ""
+"EAN-13, EAN-8, UPC-A, UPC-E, ISBN-13, ISBN-10, ISSN, ISMN or GTIN-14 with "
+"leading zero. Spaces and dashes are ignored. An add-on can follow after a "
+"space or “+”."
+msgstr ""
+"EAN-13, EAN-8, UPC-A, UPC-E, ISBN-13, ISBN-10, ISSN, ISMN o GTIN-14 con cero"
+" inicial. Se ignoran espacios y guiones. Tras un espacio o «+» puede seguir "
+"un complemento."
+
+#: includes/class-eanbc-admin.php:1112
+msgid "Same as ean – use whichever reads better."
+msgstr "Igual que ean – usa el que se lea mejor."
+
+#: includes/class-eanbc-admin.php:1113
+msgid "Like ean, but for an ISSN (periodical) or ISMN (sheet music)."
+msgstr ""
+"Como ean, pero para un ISSN (publicación periódica) o un ISMN (partitura)."
+
+#: includes/class-eanbc-admin.php:1114
+msgid ""
+"Force a format, e.g. show a UPC-A as EAN-13 or UPC-E, or a book ISBN as "
+"plain EAN-13 without the ISBN line."
+msgstr ""
+"Forzar un formato, p. ej. mostrar un UPC-A como EAN-13 o UPC-E, o un ISBN de"
+" libro como EAN-13 simple sin la línea ISBN."
+
+#: includes/class-eanbc-admin.php:1115
+msgid ""
+"2- or 5-digit add-on to the right of the barcode: issue number of "
+"periodicals or price on books."
+msgstr ""
+"Complemento de 2 o 5 dígitos a la derecha del código de barras: número de "
+"las publicaciones periódicas o precio en los libros."
+
+#: includes/class-eanbc-admin.php:1116
+msgid "Bar width in px per module."
+msgstr "Ancho de barra en px por módulo."
+
+#: includes/class-eanbc-admin.php:1117
+msgid "Bar height in px."
+msgstr "Altura de barra en px."
+
+#: includes/class-eanbc-admin.php:1118
+msgid "Show digits below the bars."
+msgstr "Mostrar los dígitos bajo las barras."
+
+#: includes/class-eanbc-admin.php:1119
+msgid "Show “ISBN …”, “ISSN …” or “ISMN …” above the bars."
+msgstr "Mostrar «ISBN …», «ISSN …» o «ISMN …» sobre las barras."
+
+#: includes/class-eanbc-admin.php:1120
+msgid "Show the product name from the data sources."
+msgstr "Mostrar el nombre del producto de las fuentes de datos."
+
+#: includes/class-eanbc-admin.php:1121
+msgid "Link to a product page (see “Link target” in the settings)."
+msgstr ""
+"Enlazar a una página de producto (ver «Destino del enlace» en los ajustes)."
+
+#: includes/class-eanbc-admin.php:1122
+msgid "Own link target for this barcode, e.g. your product page."
+msgstr ""
+"Destino del enlace propio para este código de barras, p. ej. tu página de "
+"producto."
+
+#: includes/class-eanbc-admin.php:1123
+msgid "QR code only: batch/lot and serial number (max. 20 characters each)."
+msgstr "Solo código QR: lote y número de serie (máx. 20 caracteres cada uno)."
+
+#: includes/class-eanbc-admin.php:1124
+msgid "QR code only: size of one square in px."
+msgstr "Solo código QR: tamaño de un cuadrado en px."
+
+#: includes/class-eanbc-admin.php:1125
+msgid ""
+"QR code only: error correction – higher survives more damage, but makes the "
+"code denser."
+msgstr ""
+"Solo código QR: corrección de errores – cuanto más alta, más daños soporta, "
+"pero el código es más denso."
+
+#: includes/class-eanbc-admin.php:1126
+msgid "Alignment."
+msgstr "Alineación."
+
+#: includes/class-eanbc-admin.php:1127
+msgid "Look."
+msgstr "Aspecto."
+
+#: includes/class-eanbc-admin.php:1128
+msgid "Bar color."
+msgstr "Color de las barras."
+
+#: includes/class-eanbc-admin.php:1129
+msgid "Background color or transparent."
+msgstr "Color de fondo o transparente."
+
+#: includes/class-eanbc-admin.php:1130
+msgid "Render locally (SVG) or fetch a PNG from ean-search.org."
+msgstr "Generar localmente (SVG) u obtener un PNG de ean-search.org."
+
+#: includes/class-eanbc-admin.php:1131
+msgid "Embed as inline SVG or as image."
+msgstr "Insertar como SVG en línea o como imagen."
+
+#: includes/class-eanbc-admin.php:1132 includes/class-eanbc-admin.php:1133
+#: includes/class-eanbc-admin.php:1137
+msgid "any text"
+msgstr "cualquier texto"
+
+#: includes/class-eanbc-admin.php:1132
+msgid ""
+"Own product name. Replaces the name from the data sources; no request is "
+"needed for it."
+msgstr ""
+"Nombre de producto propio. Sustituye al nombre de las fuentes de datos; no "
+"necesita ninguna petición."
+
+#: includes/class-eanbc-admin.php:1133
+msgid "Caption below the barcode."
+msgstr "Leyenda bajo el código de barras."
+
+#: includes/class-eanbc-admin.php:1134
+msgid "Read the EAN from this custom field."
+msgstr "Leer el EAN de este campo personalizado."
+
+#: includes/class-eanbc-admin.php:1135
+msgid "Post ID to read the custom field from (default: current post)."
+msgstr ""
+"ID de la entrada de la que leer el campo personalizado (predeterminado: "
+"entrada actual)."
+
+#: includes/class-eanbc-admin.php:1136
+msgid "Additional CSS class."
+msgstr "Clase CSS adicional."
+
+#: includes/class-eanbc-admin.php:1137
+msgid ""
+"Text if no product data is found ([ean_name], [ean_product], [isbn_name], "
+"[isbn_product])."
+msgstr ""
+"Texto si no se encuentran datos de producto ([ean_name], [ean_product], "
+"[isbn_name], [isbn_product])."
+
+#: includes/class-eanbc-admin.php:1139
+msgid "Attribute"
+msgstr "Atributo"
+
+#: includes/class-eanbc-admin.php:1139
+msgid "Values"
+msgstr "Valores"
+
+#: includes/class-eanbc-admin.php:1139
+msgid "Description"
+msgstr "Descripción"
+
+#. translators: %s: plugin version
+#: includes/class-eanbc-admin.php:1156
+#, php-format
+msgid "Version %s"
+msgstr "Versión %s"
+
+#: includes/class-eanbc-admin.php:1157
+msgid "Report a bug or suggest a feature"
+msgstr "Informar de un error o sugerir una función"
+
+#: includes/class-eanbc-admin.php:1160
+msgid "Improve the translation"
+msgstr "Mejorar la traducción"
+
+#: includes/class-eanbc-admin.php:1165
+msgid ""
+"Privacy: barcodes are created on this server. Product data is only requested"
+" from the data sources that are switched on – the requests contain the "
+"product code, never data about visitors."
+msgstr ""
+"Privacidad: los códigos de barras se crean en este servidor. Los datos de "
+"producto solo se solicitan a las fuentes de datos activadas – las peticiones"
+" contienen el código de producto, nunca datos sobre los visitantes."
+
+#: includes/class-eanbc-admin.php:1167
+msgid "Text for the privacy policy"
+msgstr "Texto para la política de privacidad"
+
+#: includes/class-eanbc-barcode.php:62
+msgid "The add-on must have 2 or 5 digits."
+msgstr "El complemento debe tener 2 o 5 dígitos."
+
+#: includes/class-eanbc-barcode.php:109
+msgid "No EAN given."
+msgstr "No se ha indicado ningún EAN."
+
+#. translators: %s: correct check digit (0-9 or X)
+#: includes/class-eanbc-barcode.php:124
+#, php-format
+msgid "Invalid ISSN check digit – the last character should be %s."
+msgstr ""
+"Dígito de control del ISSN no válido – el último carácter debería ser %s."
+
+#. translators: %s: correct check digit (0-9 or X)
+#: includes/class-eanbc-barcode.php:142
+#, php-format
+msgid "Invalid ISBN-10 check digit – the last character should be %s."
+msgstr ""
+"Dígito de control del ISBN-10 no válido – el último carácter debería ser %s."
+
+#: includes/class-eanbc-barcode.php:157
+msgid "An EAN may only contain digits (an ISBN-10 may end with X)."
+msgstr "Un EAN solo puede contener dígitos (un ISBN-10 puede terminar en X)."
+
+#: includes/class-eanbc-barcode.php:176
+msgid "This is an ISMN (sheet music), not an ISBN."
+msgstr "Esto es un ISMN (partitura), no un ISBN."
+
+#: includes/class-eanbc-barcode.php:177
+msgid ""
+"This is not an ISBN. Use an ISBN-13 (starting with 978 or 979) or an "
+"ISBN-10."
+msgstr ""
+"Esto no es un ISBN. Usa un ISBN-13 (que empiece por 978 o 979) o un ISBN-10."
+
+#: includes/class-eanbc-barcode.php:178
+msgid ""
+"This is not an ISSN. Use an 8-digit ISSN or an EAN-13 starting with 977."
+msgstr ""
+"Esto no es un ISSN. Usa un ISSN de 8 dígitos o un EAN-13 que empiece por "
+"977."
+
+#: includes/class-eanbc-barcode.php:179
+msgid ""
+"This is not an ISMN. Use an ISMN-13 (starting with 979-0) or an old ISMN "
+"starting with M."
+msgstr ""
+"Esto no es un ISMN. Usa un ISMN-13 (que empiece por 979-0) o un ISMN antiguo"
+" que empiece por M."
+
+#. translators: %d: number of digits entered
+#: includes/class-eanbc-barcode.php:216
+#, php-format
+msgid ""
+"Unsupported length (%d digits). Use 8 (EAN-8, UPC-E), 12 (UPC-A) or 13 "
+"(EAN-13) digits, an ISBN-10 or an ISSN."
+msgstr ""
+"Longitud no admitida (%d dígitos). Usa 8 (EAN-8, UPC-E), 12 (UPC-A) o 13 "
+"(EAN-13) dígitos, un ISBN-10 o un ISSN."
+
+#. translators: %d: correct check digit
+#: includes/class-eanbc-barcode.php:223 includes/class-eanbc-barcode.php:291
+#: includes/class-eanbc-barcode.php:315
+#, php-format
+msgid "Invalid check digit – the last digit should be %d."
+msgstr "Dígito de control no válido – el último dígito debería ser %d."
+
+#: includes/class-eanbc-barcode.php:296
+msgid ""
+"This UPC-A cannot be shortened to UPC-E (only codes with enough zeros can)."
+msgstr ""
+"Este UPC-A no se puede acortar a UPC-E (solo es posible con códigos con "
+"suficientes ceros)."
+
+#: includes/class-eanbc-barcode.php:303
+msgid "A UPC-E has 6 or 8 digits (or use a UPC-A that can be shortened)."
+msgstr "Un UPC-E tiene 6 u 8 dígitos (o usa un UPC-A que se pueda acortar)."
+
+#: includes/class-eanbc-barcode.php:308
+msgid "A UPC-E starts with 0 or 1."
+msgstr "Un UPC-E empieza por 0 o 1."
+
+#. translators: 1: barcode type (e.g. EAN-13), 2: the code
+#: includes/class-eanbc-barcode.php:697 includes/class-eanbc-renderer.php:189
+#, php-format
+msgid "%1$s barcode %2$s"
+msgstr "Código de barras %1$s %2$s"
+
+#: includes/class-eanbc-block.php:66 includes/class-eanbc-block.php:134
+#: includes/class-eanbc-woocommerce.php:302
+msgid "No data source is active."
+msgstr "No hay ninguna fuente de datos activa."
+
+#: includes/class-eanbc-block.php:102
+msgid "Enter an EAN or ISBN, e.g. 4006381333931"
+msgstr "Introduce un EAN o ISBN, p. ej. 4006381333931"
+
+#: includes/class-eanbc-block.php:104
+msgid ""
+"Leave empty to use the EAN or ISBN stored in the custom field of this post "
+"(e.g. WooCommerce GTIN)."
+msgstr ""
+"Déjalo vacío para usar el EAN o ISBN guardado en el campo personalizado de "
+"esta entrada (p. ej. GTIN de WooCommerce)."
+
+#: includes/class-eanbc-block.php:111
+msgid ""
+"Optional, 2 or 5 digits to the right of the barcode: issue number of "
+"periodicals or price on books."
+msgstr ""
+"Opcional, 2 o 5 dígitos a la derecha del código de barras: número de las "
+"publicaciones periódicas o precio en los libros."
+
+#: includes/class-eanbc-block.php:112
+msgid "Display"
+msgstr "Visualización"
+
+#: includes/class-eanbc-block.php:115
+msgid "Product name only"
+msgstr "Solo el nombre del producto"
+
+#: includes/class-eanbc-block.php:117
+msgid ""
+"Phones open the product’s web address; 2D-capable checkout scanners read the"
+" GTIN. Domain and size: plugin settings → Appearance."
+msgstr ""
+"Los móviles abren la dirección web del producto; los escáneres de caja "
+"compatibles con 2D leen el GTIN. Dominio y tamaño: ajustes del plugin → "
+"Apariencia."
+
+#: includes/class-eanbc-block.php:120
+msgid "Show GTIN below"
+msgstr "Mostrar el GTIN debajo"
+
+#: includes/class-eanbc-block.php:122
+msgid "Bar width (px per module)"
+msgstr "Ancho de barra (px por módulo)"
+
+#: includes/class-eanbc-block.php:124
+msgid "Show digits"
+msgstr "Mostrar dígitos"
+
+#: includes/class-eanbc-block.php:125
+msgid "Show product name"
+msgstr "Mostrar nombre del producto"
+
+#: includes/class-eanbc-block.php:126
+msgid "Link to product page"
+msgstr "Enlazar a la página de producto"
+
+#: includes/class-eanbc-block.php:128
+msgid ""
+"Optional. Replaces the link target from the settings, e.g. with your own "
+"product page."
+msgstr ""
+"Opcional. Sustituye al destino del enlace de los ajustes, p. ej. por tu "
+"propia página de producto."
+
+#: includes/class-eanbc-block.php:133
+msgid "Shown instead of the name from the data source."
+msgstr "Se muestra en lugar del nombre de la fuente de datos."
+
+#: includes/class-eanbc-block.php:135 includes/class-eanbc-woocommerce.php:303
+msgid "Set up data sources"
+msgstr "Configurar fuentes de datos"
+
+#: includes/class-eanbc-block.php:136
+msgid "Fetch product name"
+msgstr "Obtener nombre del producto"
+
+#: includes/class-eanbc-block.php:137
+msgid "Name taken over. It can be edited freely and is saved with the post."
+msgstr ""
+"Nombre adoptado. Se puede editar libremente y se guarda con la entrada."
+
+#: includes/class-eanbc-block.php:138 includes/class-eanbc-renderer.php:452
+#: includes/class-eanbc-woocommerce.php:310
+msgid "Category"
+msgstr "Categoría"
+
+#: includes/class-eanbc-block.php:139 includes/class-eanbc-renderer.php:460
+#: includes/class-eanbc-woocommerce.php:311
+msgid "Issuing country"
+msgstr "País emisor"
+
+#: includes/class-eanbc-block.php:140 includes/class-eanbc-renderer.php:448
+#: includes/class-eanbc-woocommerce.php:307
+msgid "Author"
+msgstr "Autor"
+
+#: includes/class-eanbc-block.php:141 includes/class-eanbc-renderer.php:449
+#: includes/class-eanbc-woocommerce.php:306
+msgid "Brand"
+msgstr "Marca"
+
+#: includes/class-eanbc-block.php:142 includes/class-eanbc-woocommerce.php:312
+msgid "Source"
+msgstr "Fuente"
+
+#: includes/class-eanbc-block.php:144
+msgid "More settings"
+msgstr "Más ajustes"
+
+#: includes/class-eanbc-block.php:145
+msgid "Colors"
+msgstr "Colores"
+
+#: includes/class-eanbc-block.php:148
+msgid "Transparent background"
+msgstr "Fondo transparente"
+
+#: includes/class-eanbc-block.php:156
+msgid "Fallback text"
+msgstr "Texto alternativo"
+
+#: includes/class-eanbc-block.php:157
+msgid "Shown when ean-search.org returns no product data."
+msgstr "Se muestra cuando ean-search.org no devuelve datos de producto."
+
+#: includes/class-eanbc-block.php:158
+msgid "Default (global setting)"
+msgstr "Predeterminado (ajuste global)"
+
+#: includes/class-eanbc-block.php:161
+msgid "Empty fields use the global settings."
+msgstr "Los campos vacíos usan los ajustes globales."
+
+#: includes/class-eanbc-block.php:162
+msgid "Open global settings"
+msgstr "Abrir ajustes globales"
+
+#: includes/class-eanbc-block.php:163
+msgid "No data source is active. Product data cannot be fetched."
+msgstr ""
+"No hay ninguna fuente de datos activa. No se pueden obtener datos de "
+"producto."
+
+#: includes/class-eanbc-block.php:164
+msgid "EAN & ISBN Barcode"
+msgstr "Código de barras EAN e ISBN"
+
+#. translators: %s: technical error message
+#: includes/class-eanbc-http.php:44
+#, php-format
+msgid "Connection failed: %s"
+msgstr "Error de conexión: %s"
+
+#. translators: %d: HTTP status code
+#: includes/class-eanbc-http.php:52
+#, php-format
+msgid "The service answered with HTTP status %d."
+msgstr "El servicio respondió con el estado HTTP %d."
+
+#: includes/class-eanbc-http.php:55
+msgid "Unexpected answer from the service."
+msgstr "Respuesta inesperada del servicio."
+
+#: includes/class-eanbc-providers.php:173
+msgid ""
+"No active data source covers this code. Data sources can be set up in the "
+"plugin settings."
+msgstr ""
+"Ninguna fuente de datos activa cubre este código. Las fuentes de datos se "
+"configuran en los ajustes del plugin."
+
+#: includes/class-eanbc-providers.php:181
+msgid "Product not found in the active data sources."
+msgstr "Producto no encontrado en las fuentes de datos activas."
+
+#: includes/class-eanbc-providers.php:203
+msgid ""
+"Barcodes are generated on this server. To show product names and product "
+"cards, this website can ask the following data services for information "
+"about the shown product codes (EAN/ISBN). The requests are made by the web "
+"server and contain only the product code and, if required, an access key of "
+"this website – no data about visitors. Results are stored temporarily on "
+"this server."
+msgstr ""
+"Los códigos de barras se generan en este servidor. Para mostrar nombres y "
+"fichas de producto, este sitio web puede consultar a los siguientes "
+"servicios de datos información sobre los códigos de producto mostrados "
+"(EAN/ISBN). Las peticiones las realiza el servidor web y solo contienen el "
+"código de producto y, si es necesario, una clave de acceso de este sitio web"
+" – ningún dato sobre los visitantes. Los resultados se guardan temporalmente"
+" en este servidor."
+
+#: includes/class-eanbc-renderer.php:164
+msgid "EAN & ISBN Barcode:"
+msgstr "Código de barras EAN e ISBN:"
+
+#. translators: %s: website name, e.g. "Open Library"
+#: includes/class-eanbc-renderer.php:301
+#, php-format
+msgid "Show product on %s"
+msgstr "Ver producto en %s"
+
+#. translators: %s: website name, e.g. "Open Library"
+#: includes/class-eanbc-renderer.php:301
+msgid "Show product"
+msgstr "Ver producto"
+
+#: includes/class-eanbc-renderer.php:364
+msgid "The web address is too long for a QR code."
+msgstr "La dirección web es demasiado larga para un código QR."
+
+#. translators: %s: GTIN, e.g. 04006381333931
+#: includes/class-eanbc-renderer.php:367
+#, php-format
+msgid "QR code (GS1 Digital Link) for %s"
+msgstr "Código QR (GS1 Digital Link) para %s"
+
+#: includes/class-eanbc-renderer.php:450
+#: includes/class-eanbc-woocommerce.php:308
+msgid "Publisher"
+msgstr "Editorial"
+
+#: includes/class-eanbc-renderer.php:451
+#: includes/class-eanbc-woocommerce.php:309
+msgid "Year"
+msgstr "Año"
+
+#. translators: %s: website name, e.g. "Open Library"
+#: includes/class-eanbc-renderer.php:482
+#, php-format
+msgid "View on %s →"
+msgstr "Ver en %s →"
+
+#. translators: %s: website name, e.g. "Open Library"
+#: includes/class-eanbc-renderer.php:482
+msgid "More about this product →"
+msgstr "Más sobre este producto →"
+
+#. translators: %s: name of the data source, e.g. "Open Library"
+#: includes/class-eanbc-renderer.php:562
+#, php-format
+msgid "Data: %s"
+msgstr "Datos: %s"
+
+#: includes/class-eanbc-woocommerce.php:94
+msgid "WooCommerce (field “GTIN, UPC, EAN or ISBN”)"
+msgstr "WooCommerce (campo «GTIN, UPC, EAN o ISBN»)"
+
+#: includes/class-eanbc-woocommerce.php:198
+#: includes/class-eanbc-woocommerce.php:202
+msgid "GTIN"
+msgstr "GTIN"
+
+#. translators: 1: variations with GTIN, 2: all variations
+#: includes/class-eanbc-woocommerce.php:229
+#, php-format
+msgid "%1$d of %2$d variations"
+msgstr "%1$d de %2$d variaciones"
+
+#: includes/class-eanbc-woocommerce.php:297
+msgid "Look up product data"
+msgstr "Buscar datos de producto"
+
+#: includes/class-eanbc-woocommerce.php:298
+msgid "Looking up…"
+msgstr "Buscando…"
+
+#: includes/class-eanbc-woocommerce.php:299
+msgid "Please enter a GTIN first."
+msgstr "Introduce primero un GTIN."
+
+#: includes/class-eanbc-woocommerce.php:300
+msgid "Use as product name"
+msgstr "Usar como nombre del producto"
+
+#: includes/class-eanbc-woocommerce.php:301
+msgid "Product name set. Do not forget to save the product."
+msgstr "Nombre del producto establecido. No olvides guardar el producto."
+
+#: includes/class-eanbc-woocommerce.php:305
+msgid "Name"
+msgstr "Nombre"
+
+#. translators: %s: product name returned by the test request
+#: includes/providers/abstract-eanbc-provider.php:265
+#, php-format
+msgid "Connection successful. Test product: %s"
+msgstr "Conexión correcta. Producto de prueba: %s"
+
+#. translators: %s: provider name
+#: includes/providers/abstract-eanbc-provider.php:275
+#, php-format
+msgid "Product not found at %s."
+msgstr "Producto no encontrado en %s."
+
+#: includes/providers/class-eanbc-provider-ean-search.php:36
+msgid ""
+"Large commercial database for all kinds of products and books. Also offers "
+"PNG barcode images."
+msgstr ""
+"Gran base de datos comercial para todo tipo de productos y libros. También "
+"ofrece imágenes PNG de códigos de barras."
+
+#: includes/providers/class-eanbc-provider-ean-search.php:43
+msgid "All products"
+msgstr "Todos los productos"
+
+#: includes/providers/class-eanbc-provider-ean-search.php:43
+msgid "Paid, API token"
+msgstr "De pago, token de API"
+
+#: includes/providers/class-eanbc-provider-ean-search.php:105
+msgid "Connection successful – the token is valid."
+msgstr "Conexión correcta – el token es válido."
+
+#. translators: 1: used requests, 2: request limit
+#: includes/providers/class-eanbc-provider-ean-search.php:108
+#, php-format
+msgid "Requests used: %1$s of %2$s."
+msgstr "Peticiones usadas: %1$s de %2$s."
+
+#: includes/providers/class-eanbc-provider-ean-search.php:142
+msgid "ean-search.org did not return an image."
+msgstr "ean-search.org no devolvió ninguna imagen."
+
+#: includes/providers/class-eanbc-provider-ean-search.php:162
+msgid "No ean-search.org API token configured."
+msgstr "No hay ningún token de API de ean-search.org configurado."
+
+#: includes/providers/class-eanbc-provider-ean-search.php:184
+msgid "ean-search.org rejected the API token. Please check it."
+msgstr "ean-search.org rechazó el token de API. Compruébalo."
+
+#: includes/providers/class-eanbc-provider-open-food-facts.php:36
+msgid ""
+"Open, community-maintained database of food products: name, brand and "
+"category."
+msgstr ""
+"Base de datos abierta y colaborativa de alimentos: nombre, marca y "
+"categoría."
+
+#: includes/providers/class-eanbc-provider-open-food-facts.php:43
+msgid "Food"
+msgstr "Alimentación"
+
+#: includes/providers/class-eanbc-provider-open-food-facts.php:43
+#: includes/providers/class-eanbc-provider-open-library.php:41
+msgid "Free, no token"
+msgstr "Gratis, sin token"
+
+#: includes/providers/class-eanbc-provider-open-food-facts.php:122
+msgid ""
+"Open Food Facts is busy or the request limit was reached. Please try again "
+"later."
+msgstr ""
+"Open Food Facts está saturado o se alcanzó el límite de peticiones. "
+"Inténtalo de nuevo más tarde."
+
+#: includes/providers/class-eanbc-provider-open-library.php:34
+msgid ""
+"Open book catalogue of the Internet Archive: title, authors, publisher and "
+"year for ISBNs."
+msgstr ""
+"Catálogo abierto de libros del Internet Archive: título, autores, editorial "
+"y año para ISBN."
+
+#: includes/providers/class-eanbc-provider-open-library.php:41
+msgid "Books (ISBN)"
+msgstr "Libros (ISBN)"
+
+#: blocks/barcode/block.json
+msgctxt "block title"
+msgid "EAN & ISBN Barcode"
+msgstr "Código de barras EAN e ISBN"
+
+#: blocks/barcode/block.json
+msgctxt "block description"
+msgid ""
+"Shows an EAN, UPC, ISBN, ISSN or ISMN barcode or a GS1 Digital Link QR code,"
+" optionally with product data from several sources."
+msgstr ""
+"Muestra un código de barras EAN, UPC, ISBN, ISSN o ISMN o un código QR GS1 "
+"Digital Link, opcionalmente con datos de producto de varias fuentes."
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "ean"
+msgstr "ean"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "isbn"
+msgstr "isbn"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "barcode"
+msgstr "código de barras"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "gtin"
+msgstr "gtin"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "book"
+msgstr "libro"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "upc"
+msgstr "upc"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "issn"
+msgstr "issn"
+
+#: blocks/barcode/block.json
+msgctxt "block keyword"
+msgid "qr"
+msgstr "qr"

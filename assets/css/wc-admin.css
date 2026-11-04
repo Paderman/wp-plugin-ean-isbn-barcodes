@@ -1,0 +1,25 @@
+/* EAN & ISBN Barcodes – WooCommerce admin (product list column, product editor lookup). */
+
+/* Product list */
+.wp-list-table .column-eanbc_gtin { width: 9.5em; }
+.eanbc-col { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 2px; }
+.eanbc-col .eanbc-svg { display: block; max-width: 100%; height: auto; }
+.eanbc-col code,
+.eanbc-col-invalid code { background: none; padding: 0; font-size: 11px; }
+.eanbc-col-type { color: #646970; font-size: 11px; }
+.eanbc-col-invalid { display: inline-flex; flex-direction: column; color: #b32d2e; }
+.eanbc-col-invalid .dashicons { font-size: 16px; width: 16px; height: 16px; }
+.eanbc-col-error { font-size: 11px; line-height: 1.3; }
+.eanbc-col-variations { color: #646970; }
+
+/* Product editor */
+.woocommerce_options_panel .eanbc-wc-lookup .button { margin: 0; }
+.eanbc-wc-lookup__result:empty { display: none; }
+.eanbc-wc-lookup__result { margin-top: 8px; padding: 8px 12px; border-left: 4px solid #c3c4c7; background: #f6f7f7; }
+.eanbc-wc-lookup__result.is-ok { border-left-color: #00a32a; }
+.eanbc-wc-lookup__result.is-error { border-left-color: #d63638; }
+.eanbc-wc-lookup__result dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 0 0 8px; }
+.eanbc-wc-lookup__result dt { color: #646970; }
+.eanbc-wc-lookup__result dd { margin: 0; font-weight: 600; }
+.eanbc-wc-lookup__done { display: block; margin-top: 6px; color: #00a32a; }
+.eanbc-wc-lookup__done:empty { display: none; }
